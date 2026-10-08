@@ -284,6 +284,91 @@
                 </div>
             </div>
         </section>
+<!-- ZONA DE PRACTICAS -->
+<!-- EVIDENCIAS DE FORMACIÓN PRÁCTICA -->
+<section class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200">
+    <div class="flex items-center gap-3 mb-6 border-b border-slate-200 pb-4">
+        <i class="fa-solid fa-circle-play text-amber-500 text-2xl"></i>
+        <div>
+            <h2 class="text-xl font-bold text-slate-900">
+                Evidencias de Formación Práctica
+            </h2>
+            <p class="text-sm text-slate-500">
+                Trabajos prácticos realizados durante la formación eléctrica.
+            </p>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- CUADRO DE VIVIENDA -->
+        <article class="bg-slate-50 border border-slate-200 rounded-xl p-3">
+            <img src="img/vivienda.png"
+            alt="Cuadro eléctrico de vivienda"
+            class="w-full h-36 object-cover rounded-lg">
+            <h3 class="font-bold text-slate-900 text-center mt-3 mb-4">
+                Cuadro eléctrico de vivienda
+            </h3>
+            <button onclick="openDocument('video/CuadroElecVivienda.mp4', 'Cuadro eléctrico de vivienda')"
+                class="w-full inline-flex justify-center items-center gap-2 px-3 py-2
+                bg-amber-500 hover:bg-amber-600 text-slate-950
+                font-semibold text-sm rounded-lg transition-colors">
+                <i class="fa-solid fa-play"></i>
+                    Ver vídeo
+            </button>
+        </article>
+        <!-- CUADRO INDUSTRIAL -->
+        <article class="bg-slate-50 border border-slate-200 rounded-xl p-3">
+            <img src="img/CuadroIndus.png"
+            alt="Cuadro eléctrico industrial"
+            class="w-full h-36 object-cover rounded-lg">
+            <h3 class="font-bold text-slate-900 text-center mt-3 mb-4">
+                Cuadro eléctrico industrial
+            </h3>
+            <button onclick="openDocument('video/VideoRVR.mp4', 'Cuadro eléctrico industrial')"
+                class="w-full inline-flex justify-center items-center gap-2 px-3 py-2
+                bg-amber-500 hover:bg-amber-600 text-slate-950
+                font-semibold text-sm rounded-lg transition-colors">
+                <i class="fa-solid fa-play"></i>
+                    Ver vídeo
+            </button>
+        </article>
+        <!-- BANDEJAS METÁLICAS -->
+        <article class="bg-slate-50 border border-slate-200 rounded-xl p-3">
+            <img src="img/canalizacion.png"
+                 alt="Canalización mediante bandejas metálicas"
+                 class="w-full h-36 object-cover rounded-lg">
+
+            <h3 class="font-bold text-slate-900 text-center mt-3 mb-4">
+                Canalización de Bandejas metálicas
+            </h3>
+            <button
+                onclick="openDocument('video/CanalizaciónBandejasMetalicas.mp4', 'Canalización mediante bandejas metálicas')"
+                class="w-full inline-flex justify-center items-center gap-2 px-3 py-2
+                       bg-amber-500 hover:bg-amber-600 text-slate-950
+                       font-semibold text-sm rounded-lg transition-colors">
+                <i class="fa-solid fa-play"></i>
+                Ver vídeo
+            </button>
+        </article>
+        <!-- COMPRESOR INDUSTRIAL -->
+        <article class="bg-slate-50 border border-slate-200 rounded-xl p-3">
+            <img src="img/compresor.png"
+                 alt="Caja de conexiones de compresor industrial"
+                 class="w-full h-36 object-cover rounded-lg">
+
+            <h3 class="font-bold text-slate-900 text-center mt-3 mb-4">
+                Compresor frigorífico industrial
+            </h3>
+            <button
+                onclick="openDocument('video/CompresorIndustrial.mp4', 'Caja de conexiones de un compresor industrial')"
+                class="w-full inline-flex justify-center items-center gap-2 px-3 py-2
+                       bg-amber-500 hover:bg-amber-600 text-slate-950
+                       font-semibold text-sm rounded-lg transition-colors">
+                <i class="fa-solid fa-play"></i>
+                Ver vídeo
+            </button>
+        </article>
+    </div>
+</section>
         <!-- =========================================================
              AVISO
         ========================================================== -->
@@ -352,6 +437,6 @@
     <!-- =========================================================
          JAVASCRIPT DEL MODAL
     ========================================================== -->
-    <script src="datosComplementarios.js"></script>
+    <script src="./js/datosComplementarios.js"></script>
 </body>
 </html>
